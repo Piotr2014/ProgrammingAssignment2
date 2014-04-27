@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
 		x <<- y
 		solveMatrix <<- NULL
 ## assigns "x" value of "y" and "solveMatrix" value of NULL, in the first PARENT environment level 
-where "x" and "m" exist... effectively, this resets "m" to be null when new "x" is passed
+where "x" and "solveMatrix" exist, effectively, this resets "solveMatrix" to be null when new "x" is passed
 	}
 	get <- function () x
 ##creates a function that accepts no arguments but returns x 
